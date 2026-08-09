@@ -12,13 +12,17 @@ import { InvoicesModule } from './invoices/invoices.module';
 import { EmployeesModule } from './employees/employees.module';
 import { DashboardModule } from './dashboard/dashboard.module';
 
+const staticModule = process.env.VERCEL
+  ? []
+  : [ServeStaticModule.forRoot({
+      rootPath: join(__dirname, '..', 'client', 'dist'),
+      exclude: ['/api/{*splat}'],
+    })];
+
 @Module({
   imports: [
     ConfigModule.forRoot({ isGlobal: true }),
-    ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '..', 'client', 'dist'),
-      exclude: ['/api/{*splat}'],
-    }),
+    ...staticModule,
     TypeOrmModule.forRoot({
       type: 'postgres',
       url: process.env.DATABASE_URL,
