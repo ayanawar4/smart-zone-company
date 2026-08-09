@@ -16,7 +16,7 @@ import { DashboardModule } from './dashboard/dashboard.module';
   imports: [
     ConfigModule.forRoot({ isGlobal: true }),
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '..', '..', 'frontend', 'dist'),
+      rootPath: join(__dirname, '..', 'client', 'dist'),
       exclude: ['/api/{*splat}'],
     }),
     TypeOrmModule.forRoot({
