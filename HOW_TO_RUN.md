@@ -1,14 +1,31 @@
 # How to Run Smart Zone Dashboard
 
+## Project Structure
+
+```
+smart-zone-company/
+└── backend/                  ← ONE NestJS project (TypeScript)
+    ├── client/               ← React frontend (inside NestJS)
+    │   ├── src/
+    │   └── vite.config.ts
+    ├── src/                  ← NestJS API & entities
+    ├── seed-data/            ← JSON seed files
+    ├── .env                  ← set DATABASE_URL here
+    └── package.json
+```
+
+---
+
 ## Prerequisites
+
 - Node.js 18+
-- A Neon Postgres database (https://console.neon.tech)
+- Neon Postgres database → https://console.neon.tech
 
 ---
 
 ## 1. Configure Environment
 
-Edit `backend/.env` and set your Neon connection string:
+Edit `backend/.env`:
 
 ```
 PORT=3001
@@ -24,23 +41,14 @@ DATABASE_URL=postgresql://USER:PASSWORD@HOST/DBNAME?sslmode=require
 cd backend
 npm install
 
-# Frontend
-cd ../frontend
+# Frontend (inside backend)
+cd client
 npm install
 ```
 
 ---
 
-## 3. Build the Backend
-
-```bash
-cd backend
-npm run build
-```
-
----
-
-## 4. Seed the Database (first time only)
+## 3. Seed the Database (first time only)
 
 ```bash
 cd backend
@@ -49,79 +57,54 @@ npx ts-node src/seed/seed.ts
 
 ---
 
-## 5. Start the Backend
+## Development Mode (two terminals)
 
+**Terminal 1 — Backend:**
 ```bash
 cd backend
+npm run build
 node dist/main.js
 ```
+→ API runs at http://localhost:3001
 
-Backend runs at: http://localhost:3001
-
----
-
-## 6. Start the Frontend (development)
-
-Open a new terminal:
-
+**Terminal 2 — Frontend (hot reload):**
 ```bash
-cd frontend
+cd backend/client
 npm run dev
 ```
-
-Frontend runs at: http://localhost:5173
+→ UI runs at http://localhost:5173 (proxies /api to backend)
 
 ---
 
-## Production Build (single deployment)
+## Production Mode (single server)
 
-Build both and serve from the backend:
+Build everything and run from one NestJS process:
 
 ```bash
-# Build frontend
-cd frontend
+# 1. Build frontend
+cd backend/client
 npm run build
 
-# Build backend
-cd ../backend
+# 2. Build backend
+cd ..
 npm run build
 
-# Start (serves frontend + API together)
+# 3. Start (serves API + frontend together)
 node dist/main.js
 ```
 
-Open: http://localhost:3001
+→ Open http://localhost:3001 — NestJS serves the React app + API from one URL.
 
 ---
 
-## Deploy to Render
+## Deploy to Render (one service)
 
 1. Push code to GitHub
-2. Create a new **Web Service** on https://render.com
-3. Set the following in Render dashboard:
-   - **Build Command:** `cd frontend && npm install && npm run build && cd ../backend && npm install && npm run build`
-   - **Start Command:** `node backend/dist/main.js`
-   - **Environment Variable:** `DATABASE_URL` = your Neon connection string
-
----
-
-## Project Structure
-
-```
-smart-zone-dashboard/
-├── backend/          # NestJS API (port 3001)
-│   ├── src/
-│   │   ├── projects/
-│   │   ├── invoices/
-│   │   ├── fund/
-│   │   ├── expenses/
-│   │   ├── salaries/
-│   │   ├── employees/
-│   │   ├── dashboard/
-│   │   └── seed/
-│   └── .env          ← set DATABASE_URL here
-└── frontend/         # React + Vite + TypeScript (port 5173)
-    └── src/
-        ├── components/
-        └── pages/
-```
+2. Go to https://render.com → **New Web Service** → connect your repo
+3. Set:
+   - **Root Directory:** `backend`
+   - **Build Command:** `cd client && npm install && npm run build && cd .. && npm install && npm run build`
+   - **Start Command:** `node dist/main.js`
+4. Add environment variable:
+   - `DATABASE_URL` = your Neon connection string
+5. Deploy → one URL for everything
