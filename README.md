@@ -94,3 +94,4 @@ Your live data lives in `backend/data/smartzone.sqlite`. Copy this file elsewher
 
 بيانات البرنامج الفعلية محفوظة في ملف `backend/data/smartzone.sqlite`، يفضل عمل نسخة احتياطية منه بين الحين والآخر.
 # smart-zone-company
+# smart-zone-company
