@@ -1,0 +1,308 @@
+[
+  {
+    "source": "VAT",
+    "amount": 25515.0,
+    "date": "2024-01-09",
+    "note": null
+  },
+  {
+    "source": "PROXY",
+    "amount": 5985.0,
+    "date": "2024-11-10",
+    "note": null
+  },
+  {
+    "source": "Proxy",
+    "amount": 12575.0,
+    "date": "2025-01-18",
+    "note": null
+  },
+  {
+    "source": "ment",
+    "amount": 200.0,
+    "date": "2025-01-19",
+    "note": null
+  },
+  {
+    "source": "BROTHER OFFICE",
+    "amount": 4781.5,
+    "date": "2025-01-30",
+    "note": null
+  },
+  {
+    "source": "PROXY",
+    "amount": 1450.0,
+    "date": "2026-01-30",
+    "note": null
+  },
+  {
+    "source": "SWITCH PROXY",
+    "amount": -1029.0,
+    "date": "2027-01-30",
+    "note": "SWITCH 4 PORT"
+  },
+  {
+    "source": "ALNGAR",
+    "amount": 4393.0,
+    "date": "2025-03-22",
+    "note": null
+  },
+  {
+    "source": "invoice",
+    "amount": 3385.0,
+    "date": "2025-05-22",
+    "note": null
+  },
+  {
+    "source": "SIV INSTEL",
+    "amount": 2000.0,
+    "date": "2025-05-22",
+    "note": null
+  },
+  {
+    "source": "PROXY INST",
+    "amount": 4000.0,
+    "date": "2025-05-22",
+    "note": null
+  },
+  {
+    "source": "oruba",
+    "amount": 6750.0,
+    "date": "2025-05-25",
+    "note": null
+  },
+  {
+    "source": "oruba",
+    "amount": 6840.0,
+    "date": "2025-07-09",
+    "note": null
+  },
+  {
+    "source": "proxy  invoice",
+    "amount": 4118.0,
+    "date": "2025-07-16",
+    "note": "الاجمالى"
+  },
+  {
+    "source": "proxy  invoice",
+    "amount": 9455.0,
+    "date": "2025-07-21",
+    "note": null
+  },
+  {
+    "source": "proxy  invoice",
+    "amount": 3360.0,
+    "date": "2025-07-21",
+    "note": null
+  },
+  {
+    "source": "PROXY offic",
+    "amount": 20000.0,
+    "date": "2025-08-05",
+    "note": null
+  },
+  {
+    "source": "PROXY TONER",
+    "amount": 1240.0,
+    "date": "2025-08-31",
+    "note": null
+  },
+  {
+    "source": "DAR ALSLAM",
+    "amount": 1130.0,
+    "date": "2025-09-12",
+    "note": null
+  },
+  {
+    "source": "Invoice 203",
+    "amount": 1847.0,
+    "date": "2025-09-21",
+    "note": null
+  },
+  {
+    "source": "proxy central",
+    "amount": 590.0,
+    "date": "2025-10-07",
+    "note": null
+  },
+  {
+    "source": "MADINTY",
+    "amount": 3769.0,
+    "date": "2025-10-07",
+    "note": null
+  },
+  {
+    "source": "SALAMA",
+    "amount": 4035.0,
+    "date": "2025-10-07",
+    "note": null
+  },
+  {
+    "source": "PROXY",
+    "amount": 2824.0,
+    "date": "2025-10-07",
+    "note": null
+  },
+  {
+    "source": "PROXY",
+    "amount": 16425.0,
+    "date": "2025-10-18",
+    "note": null
+  },
+  {
+    "source": "SVIZTER",
+    "amount": 22200.0,
+    "date": "2025-11-12",
+    "note": null
+  },
+  {
+    "source": "ALDAHBIA",
+    "amount": 4265.0,
+    "date": "2025-12-03",
+    "note": null
+  },
+  {
+    "source": "Oruba MIN",
+    "amount": 5750.0,
+    "date": "2026-01-03",
+    "note": "SH AHMED 1000"
+  },
+  {
+    "source": "INST",
+    "amount": 3000.0,
+    "date": null,
+    "note": null
+  },
+  {
+    "source": "Oruba MIN",
+    "amount": 4560.0,
+    "date": null,
+    "note": null
+  },
+  {
+    "source": "OVERSEACE",
+    "amount": 20000.0,
+    "date": "2026-02-20",
+    "note": null
+  },
+  {
+    "source": "PROXY VAT&PROF",
+    "amount": 15407.0,
+    "date": "2026-02-21",
+    "note": null
+  },
+  {
+    "source": "PROXIMA",
+    "amount": 5000.0,
+    "date": "2026-03-21",
+    "note": null
+  },
+  {
+    "source": "PROXY",
+    "amount": 6820.0,
+    "date": "2026-03-21",
+    "note": null
+  },
+  {
+    "source": "PROXY",
+    "amount": 1178.0,
+    "date": "2026-03-21",
+    "note": null
+  },
+  {
+    "source": "Oruba MIN",
+    "amount": -550.0,
+    "date": null,
+    "note": null
+  },
+  {
+    "source": "Oruba MIN",
+    "amount": 10260.0,
+    "date": "2026-04-14",
+    "note": null
+  },
+  {
+    "source": "Oruba MIN",
+    "amount": -550.0,
+    "date": "2026-04-18",
+    "note": "HD CABLE+TRAN"
+  },
+  {
+    "source": "DR AHMED",
+    "amount": -2543.0,
+    "date": "2026-04-28",
+    "note": null
+  },
+  {
+    "source": "نثريات",
+    "amount": -100.0,
+    "date": null,
+    "note": null
+  },
+  {
+    "source": "GEN TAYEL PROF",
+    "amount": 9045.0,
+    "date": "2026-05-10",
+    "note": null
+  },
+  {
+    "source": "HILTON K.R",
+    "amount": 40000.0,
+    "date": "2026-05-13",
+    "note": null
+  },
+  {
+    "source": "Oruba MIN",
+    "amount": 1255.0,
+    "date": "2026-05-18",
+    "note": "HD CABLE+HOLDER"
+  },
+  {
+    "source": "Oruba MIN",
+    "amount": -500.0,
+    "date": "2026-05-18",
+    "note": null
+  },
+  {
+    "source": "Oruba MIN",
+    "amount": -320.0,
+    "date": "2026-07-06",
+    "note": null
+  },
+  {
+    "source": "DR AHMED",
+    "amount": 3500.0,
+    "date": "2026-06-06",
+    "note": null
+  },
+  {
+    "source": "CAM G.P",
+    "amount": 1692.0,
+    "date": "2026-06-07",
+    "note": null
+  },
+  {
+    "source": "AYA IOTECH",
+    "amount": -500.0,
+    "date": "2026-07-24",
+    "note": null
+  },
+  {
+    "source": "MR MAMDOUH",
+    "amount": 5653.0,
+    "date": "2026-07-24",
+    "note": null
+  },
+  {
+    "source": "ENG MOHAMED",
+    "amount": 3550.0,
+    "date": "2026-07-24",
+    "note": null
+  },
+  {
+    "source": "Oruba MIN",
+    "amount": 16231.0,
+    "date": "2026-07-26",
+    "note": null
+  }
+]

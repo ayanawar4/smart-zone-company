@@ -1,0 +1,485 @@
+[
+  {
+    "employeeName": "اسلام",
+    "month": 12,
+    "year": 2025,
+    "amount": 9000.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 11,
+    "year": 2025,
+    "amount": 12500.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 10,
+    "year": 2025,
+    "amount": 9200.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 9,
+    "year": 2025,
+    "amount": 8000.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 8,
+    "year": 2025,
+    "amount": 8000.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 7,
+    "year": 2025,
+    "amount": 5000.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 6,
+    "year": 2025,
+    "amount": 5000.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 5,
+    "year": 2025,
+    "amount": 6665.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 4,
+    "year": 2025,
+    "amount": 5300.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 3,
+    "year": 2025,
+    "amount": 5000.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 2,
+    "year": 2025,
+    "amount": 4000.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 1,
+    "year": 2025,
+    "amount": 4000.0,
+    "note": null
+  },
+  {
+    "employeeName": "عمرو/ياسين",
+    "month": 12,
+    "year": 2025,
+    "amount": 2290.0,
+    "note": null
+  },
+  {
+    "employeeName": "عمرو/ياسين",
+    "month": 11,
+    "year": 2025,
+    "amount": 2250.0,
+    "note": null
+  },
+  {
+    "employeeName": "عمرو/ياسين",
+    "month": 10,
+    "year": 2025,
+    "amount": 1250.0,
+    "note": null
+  },
+  {
+    "employeeName": "عمرو/ياسين",
+    "month": 9,
+    "year": 2025,
+    "amount": 3500.0,
+    "note": null
+  },
+  {
+    "employeeName": "عمرو/ياسين",
+    "month": 8,
+    "year": 2025,
+    "amount": 3500.0,
+    "note": null
+  },
+  {
+    "employeeName": "عمرو/ياسين",
+    "month": 7,
+    "year": 2025,
+    "amount": 2500.0,
+    "note": null
+  },
+  {
+    "employeeName": "عمرو/ياسين",
+    "month": 6,
+    "year": 2025,
+    "amount": 2500.0,
+    "note": null
+  },
+  {
+    "employeeName": "عمرو/ياسين",
+    "month": 5,
+    "year": 2025,
+    "amount": 2500.0,
+    "note": null
+  },
+  {
+    "employeeName": "عمرو/ياسين",
+    "month": 4,
+    "year": 2025,
+    "amount": 2200.0,
+    "note": null
+  },
+  {
+    "employeeName": "عمرو/ياسين",
+    "month": 3,
+    "year": 2025,
+    "amount": 2500.0,
+    "note": null
+  },
+  {
+    "employeeName": "عمرو/ياسين",
+    "month": 2,
+    "year": 2025,
+    "amount": 2500.0,
+    "note": null
+  },
+  {
+    "employeeName": "عمرو/ياسين",
+    "month": 1,
+    "year": 2025,
+    "amount": 2500.0,
+    "note": null
+  },
+  {
+    "employeeName": "الصيانة",
+    "month": 12,
+    "year": 2025,
+    "amount": 400.0,
+    "note": null
+  },
+  {
+    "employeeName": "الصيانة",
+    "month": 11,
+    "year": 2025,
+    "amount": 300.0,
+    "note": null
+  },
+  {
+    "employeeName": "الصيانة",
+    "month": 10,
+    "year": 2025,
+    "amount": 1850.0,
+    "note": null
+  },
+  {
+    "employeeName": "الصيانة",
+    "month": 9,
+    "year": 2025,
+    "amount": 1800.0,
+    "note": null
+  },
+  {
+    "employeeName": "الصيانة",
+    "month": 8,
+    "year": 2025,
+    "amount": 1300.0,
+    "note": null
+  },
+  {
+    "employeeName": "الصيانة",
+    "month": 7,
+    "year": 2025,
+    "amount": 2000.0,
+    "note": null
+  },
+  {
+    "employeeName": "الصيانة",
+    "month": 6,
+    "year": 2025,
+    "amount": 450.0,
+    "note": null
+  },
+  {
+    "employeeName": "الصيانة",
+    "month": 5,
+    "year": 2025,
+    "amount": 200.0,
+    "note": null
+  },
+  {
+    "employeeName": "الصيانة",
+    "month": 4,
+    "year": 2025,
+    "amount": 425.0,
+    "note": null
+  },
+  {
+    "employeeName": "الصيانة",
+    "month": 3,
+    "year": 2025,
+    "amount": 175.0,
+    "note": null
+  },
+  {
+    "employeeName": "الصيانة",
+    "month": 2,
+    "year": 2025,
+    "amount": 420.0,
+    "note": null
+  },
+  {
+    "employeeName": "الصيانة",
+    "month": 1,
+    "year": 2025,
+    "amount": 500.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 12,
+    "year": 2026,
+    "amount": 1250.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 11,
+    "year": 2026,
+    "amount": 1250.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 10,
+    "year": 2026,
+    "amount": 1250.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 9,
+    "year": 2026,
+    "amount": 1250.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 8,
+    "year": 2026,
+    "amount": 1250.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 7,
+    "year": 2026,
+    "amount": 3250.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 6,
+    "year": 2026,
+    "amount": 9000.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 5,
+    "year": 2026,
+    "amount": 9000.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 4,
+    "year": 2026,
+    "amount": 9000.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 3,
+    "year": 2026,
+    "amount": 7400.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 2,
+    "year": 2026,
+    "amount": 9000.0,
+    "note": null
+  },
+  {
+    "employeeName": "اسلام",
+    "month": 1,
+    "year": 2026,
+    "amount": 9000.0,
+    "note": null
+  },
+  {
+    "employeeName": "المساعد",
+    "month": 7,
+    "year": 2026,
+    "amount": 2950.0,
+    "note": null
+  },
+  {
+    "employeeName": "المساعد",
+    "month": 6,
+    "year": 2026,
+    "amount": 6200.0,
+    "note": null
+  },
+  {
+    "employeeName": "المساعد",
+    "month": 5,
+    "year": 2026,
+    "amount": 6500.0,
+    "note": null
+  },
+  {
+    "employeeName": "المساعد",
+    "month": 4,
+    "year": 2026,
+    "amount": 6500.0,
+    "note": null
+  },
+  {
+    "employeeName": "المساعد",
+    "month": 2,
+    "year": 2026,
+    "amount": 3000.0,
+    "note": null
+  },
+  {
+    "employeeName": "المساعد",
+    "month": 1,
+    "year": 2026,
+    "amount": 6000.0,
+    "note": null
+  },
+  {
+    "employeeName": "الصيانة",
+    "month": 7,
+    "year": 2026,
+    "amount": 600.0,
+    "note": null
+  },
+  {
+    "employeeName": "الصيانة",
+    "month": 6,
+    "year": 2026,
+    "amount": 300.0,
+    "note": null
+  },
+  {
+    "employeeName": "الصيانة",
+    "month": 5,
+    "year": 2026,
+    "amount": 600.0,
+    "note": null
+  },
+  {
+    "employeeName": "الصيانة",
+    "month": 4,
+    "year": 2026,
+    "amount": 750.0,
+    "note": null
+  },
+  {
+    "employeeName": "الصيانة",
+    "month": 3,
+    "year": 2026,
+    "amount": 270.0,
+    "note": null
+  },
+  {
+    "employeeName": "الصيانة",
+    "month": 2,
+    "year": 2026,
+    "amount": 700.0,
+    "note": null
+  },
+  {
+    "employeeName": "الصيانة",
+    "month": 1,
+    "year": 2026,
+    "amount": 400.0,
+    "note": null
+  },
+  {
+    "employeeName": "المهندسين",
+    "month": 2,
+    "year": 2026,
+    "amount": 1665.0,
+    "note": null
+  },
+  {
+    "employeeName": "المهندسين",
+    "month": 1,
+    "year": 2026,
+    "amount": 1665.0,
+    "note": null
+  },
+  {
+    "employeeName": "خارجى",
+    "month": 6,
+    "year": 2026,
+    "amount": 10000.0,
+    "note": null
+  },
+  {
+    "employeeName": "خارجى",
+    "month": 5,
+    "year": 2026,
+    "amount": 10000.0,
+    "note": null
+  },
+  {
+    "employeeName": "خارجى",
+    "month": 4,
+    "year": 2026,
+    "amount": 9000.0,
+    "note": null
+  },
+  {
+    "employeeName": "خارجى",
+    "month": 3,
+    "year": 2026,
+    "amount": 9000.0,
+    "note": null
+  },
+  {
+    "employeeName": "خارجى",
+    "month": 2,
+    "year": 2026,
+    "amount": 8000.0,
+    "note": null
+  },
+  {
+    "employeeName": "خارجى",
+    "month": 1,
+    "year": 2026,
+    "amount": 8000.0,
+    "note": null
+  }
+]

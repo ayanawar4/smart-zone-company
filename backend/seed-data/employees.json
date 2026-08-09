@@ -1,0 +1,42 @@
+[
+  {
+    "name": "HESHAM",
+    "role": null,
+    "active": true
+  },
+  {
+    "name": "SAYED",
+    "role": null,
+    "active": true
+  },
+  {
+    "name": "اسلام",
+    "role": null,
+    "active": true
+  },
+  {
+    "name": "الصيانة",
+    "role": null,
+    "active": true
+  },
+  {
+    "name": "المساعد",
+    "role": null,
+    "active": true
+  },
+  {
+    "name": "المهندسين",
+    "role": null,
+    "active": true
+  },
+  {
+    "name": "خارجى",
+    "role": null,
+    "active": true
+  },
+  {
+    "name": "عمرو/ياسين",
+    "role": null,
+    "active": true
+  }
+]

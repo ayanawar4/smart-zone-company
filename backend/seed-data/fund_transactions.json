@@ -1,0 +1,442 @@
+[
+  {
+    "no": 1,
+    "project": null,
+    "item": "hesham fund",
+    "category": "main fund",
+    "amountIn": 1590942.0,
+    "amountOut": 0,
+    "balanceAfter": 1590942.0,
+    "note": null
+  },
+  {
+    "no": 2,
+    "project": null,
+    "item": "sayed fund",
+    "category": "main fund",
+    "amountIn": 199300.0,
+    "amountOut": 0,
+    "balanceAfter": 1790242.0,
+    "note": null
+  },
+  {
+    "no": 3,
+    "project": null,
+    "item": null,
+    "category": "STORE",
+    "amountIn": 0,
+    "amountOut": 415663.86,
+    "balanceAfter": 1374578.14,
+    "note": "470987.7"
+  },
+  {
+    "no": 4,
+    "project": "vat",
+    "item": null,
+    "category": "company vat",
+    "amountIn": 291858.0,
+    "amountOut": 0,
+    "balanceAfter": 1666436.14,
+    "note": "-2580.0400000000373"
+  },
+  {
+    "no": 5,
+    "project": "paper deposit",
+    "item": "FUND",
+    "category": "out invest",
+    "amountIn": 0,
+    "amountOut": 25000.0,
+    "balanceAfter": 1641436.14,
+    "note": null
+  },
+  {
+    "no": 6,
+    "project": "dolar 1300",
+    "item": null,
+    "category": "out invest",
+    "amountIn": 0,
+    "amountOut": 67717.98,
+    "balanceAfter": 1573718.17,
+    "note": null
+  },
+  {
+    "no": 7,
+    "project": "SHAWKY",
+    "item": "LOAN",
+    "category": "loan",
+    "amountIn": 0,
+    "amountOut": 10000.0,
+    "balanceAfter": 1563718.17,
+    "note": null
+  },
+  {
+    "no": 8,
+    "project": "HESHAM",
+    "item": "REMAIN",
+    "category": "loan",
+    "amountIn": 0.0,
+    "amountOut": 198607.0,
+    "balanceAfter": 1365111.17,
+    "note": null
+  },
+  {
+    "no": 9,
+    "project": "Hilton  corniche",
+    "item": "project",
+    "category": "DEPOSIT",
+    "amountIn": 50000.0,
+    "amountOut": 0,
+    "balanceAfter": 1415111.17,
+    "note": null
+  },
+  {
+    "no": 10,
+    "project": "Proxy",
+    "item": "LOAN",
+    "category": "loan",
+    "amountIn": 0,
+    "amountOut": 60000.0,
+    "balanceAfter": 1355111.17,
+    "note": null
+  },
+  {
+    "no": 11,
+    "project": "GESTIC",
+    "item": "DEPOSIT",
+    "category": "DEPOSIT",
+    "amountIn": 58000.0,
+    "amountOut": 0,
+    "balanceAfter": 1413111.17,
+    "note": "50000 Mr Mahalawy"
+  },
+  {
+    "no": 12,
+    "project": "Hospital 2",
+    "item": "FUND",
+    "category": "proiect fund",
+    "amountIn": 0,
+    "amountOut": 10635.0,
+    "balanceAfter": 1402476.17,
+    "note": null
+  },
+  {
+    "no": 13,
+    "project": "SERVER",
+    "item": "FUND",
+    "category": "proiect fund",
+    "amountIn": 0,
+    "amountOut": 191300.0,
+    "balanceAfter": 1211176.17,
+    "note": null
+  },
+  {
+    "no": 14,
+    "project": "30 VALORY UNIT",
+    "item": "OUTINVEST",
+    "category": "out invest",
+    "amountIn": 0,
+    "amountOut": 486300.0,
+    "balanceAfter": 724876.17,
+    "note": null
+  },
+  {
+    "no": 15,
+    "project": "ISAMIL RAGB",
+    "item": "FUND",
+    "category": "proiect fund",
+    "amountIn": 0,
+    "amountOut": 1345.0,
+    "balanceAfter": 723531.17,
+    "note": null
+  },
+  {
+    "no": 16,
+    "project": "HILTON K.R",
+    "item": "FUND",
+    "category": "proiect fund",
+    "amountIn": 0,
+    "amountOut": 1707627.0,
+    "balanceAfter": -984095.83,
+    "note": null
+  },
+  {
+    "no": 17,
+    "project": "HILTON K.R",
+    "item": "DEPOSIT",
+    "category": "DEPOSIT",
+    "amountIn": 2029600.0,
+    "amountOut": 0,
+    "balanceAfter": 1045504.17,
+    "note": null
+  },
+  {
+    "no": 18,
+    "project": "ACCESS POINT",
+    "item": "FUND",
+    "category": "proiect fund",
+    "amountIn": 0,
+    "amountOut": 48110.0,
+    "balanceAfter": 997394.17,
+    "note": null
+  },
+  {
+    "no": 19,
+    "project": "الحاج حسين",
+    "item": "OUTINVEST",
+    "category": "out invest",
+    "amountIn": 0,
+    "amountOut": 603000.0,
+    "balanceAfter": 394394.17,
+    "note": null
+  },
+  {
+    "no": 20,
+    "project": "30 VALORY UNIT 6",
+    "item": "OUTINVEST",
+    "category": "out invest",
+    "amountIn": 0,
+    "amountOut": 24000.0,
+    "balanceAfter": 370394.17,
+    "note": null
+  },
+  {
+    "no": 21,
+    "project": "SHOMAN HOME",
+    "item": "FUND",
+    "category": "proiect fund",
+    "amountIn": 0,
+    "amountOut": 17435.0,
+    "balanceAfter": 352959.17,
+    "note": null
+  },
+  {
+    "no": 22,
+    "project": "OROUBA CAM",
+    "item": "FUND",
+    "category": "proiect fund",
+    "amountIn": 0,
+    "amountOut": 6905.0,
+    "balanceAfter": 346054.17,
+    "note": null
+  },
+  {
+    "no": 23,
+    "project": "MR MAMDOUH",
+    "item": "FUND",
+    "category": "proiect fund",
+    "amountIn": 0,
+    "amountOut": 11515.0,
+    "balanceAfter": 334539.17,
+    "note": null
+  },
+  {
+    "no": 24,
+    "project": "MR MAMDOUH 2",
+    "item": "FUND",
+    "category": "proiect fund",
+    "amountIn": 0,
+    "amountOut": 4325.0,
+    "balanceAfter": 330214.17,
+    "note": null
+  },
+  {
+    "no": 25,
+    "project": "invoice",
+    "item": "taxes",
+    "category": "taxes",
+    "amountIn": 0,
+    "amountOut": 822.0,
+    "balanceAfter": 329392.17,
+    "note": null
+  },
+  {
+    "no": 26,
+    "project": "YEHIA RAGB",
+    "item": "FUND",
+    "category": "proiect fund",
+    "amountIn": 0,
+    "amountOut": 3830.0,
+    "balanceAfter": 325562.17,
+    "note": null
+  },
+  {
+    "no": 27,
+    "project": "Hilton  corniche",
+    "item": "Fund",
+    "category": "proiect fund",
+    "amountIn": 0,
+    "amountOut": 3965.0,
+    "balanceAfter": 321597.17,
+    "note": null
+  },
+  {
+    "no": 28,
+    "project": "SPA VILLA",
+    "item": "FUND",
+    "category": "proiect fund",
+    "amountIn": 0,
+    "amountOut": 43987.0,
+    "balanceAfter": 277610.17,
+    "note": null
+  },
+  {
+    "no": 29,
+    "project": "HILTON CAM",
+    "item": "FUND",
+    "category": "proiect fund",
+    "amountIn": 0,
+    "amountOut": 4275.0,
+    "balanceAfter": 273335.17,
+    "note": null
+  },
+  {
+    "no": 30,
+    "project": "Tool bag",
+    "item": "Tool bag",
+    "category": "taxes",
+    "amountIn": 0,
+    "amountOut": 950.0,
+    "balanceAfter": 272385.17,
+    "note": null
+  },
+  {
+    "no": 31,
+    "project": "Hilton corniche 2",
+    "item": "FUND",
+    "category": "proiect fund",
+    "amountIn": 0,
+    "amountOut": 26777.0,
+    "balanceAfter": 245608.17,
+    "note": null
+  },
+  {
+    "no": 32,
+    "project": "hilton G.P 300s",
+    "item": "FUND",
+    "category": "proiect fund",
+    "amountIn": 0,
+    "amountOut": 271048.0,
+    "balanceAfter": -25439.83,
+    "note": null
+  },
+  {
+    "no": 33,
+    "project": "MR MAMDOUH",
+    "item": "REFUD",
+    "category": "Proiect refund",
+    "amountIn": 11515.0,
+    "amountOut": 0,
+    "balanceAfter": -13924.83,
+    "note": null
+  },
+  {
+    "no": 34,
+    "project": "OROUBA CAM",
+    "item": "REFUD",
+    "category": "Proiect refund",
+    "amountIn": 6905.0,
+    "amountOut": 0,
+    "balanceAfter": -7019.83,
+    "note": null
+  },
+  {
+    "no": 35,
+    "project": null,
+    "item": null,
+    "category": null,
+    "amountIn": 0,
+    "amountOut": 0,
+    "balanceAfter": -7019.83,
+    "note": null
+  },
+  {
+    "no": 36,
+    "project": null,
+    "item": null,
+    "category": null,
+    "amountIn": 0,
+    "amountOut": 0,
+    "balanceAfter": -7019.83,
+    "note": null
+  },
+  {
+    "no": 37,
+    "project": null,
+    "item": null,
+    "category": null,
+    "amountIn": 0,
+    "amountOut": 0,
+    "balanceAfter": -7019.83,
+    "note": null
+  },
+  {
+    "no": 38,
+    "project": null,
+    "item": null,
+    "category": null,
+    "amountIn": 0,
+    "amountOut": 0,
+    "balanceAfter": -7019.83,
+    "note": null
+  },
+  {
+    "no": 39,
+    "project": null,
+    "item": null,
+    "category": null,
+    "amountIn": 0,
+    "amountOut": 0,
+    "balanceAfter": -7019.83,
+    "note": null
+  },
+  {
+    "no": 40,
+    "project": null,
+    "item": null,
+    "category": null,
+    "amountIn": 0,
+    "amountOut": 0,
+    "balanceAfter": -7019.83,
+    "note": null
+  },
+  {
+    "no": 41,
+    "project": null,
+    "item": null,
+    "category": null,
+    "amountIn": 0,
+    "amountOut": 0,
+    "balanceAfter": -7019.83,
+    "note": null
+  },
+  {
+    "no": 42,
+    "project": null,
+    "item": null,
+    "category": null,
+    "amountIn": 0,
+    "amountOut": 0,
+    "balanceAfter": -7019.83,
+    "note": null
+  },
+  {
+    "no": 43,
+    "project": null,
+    "item": null,
+    "category": null,
+    "amountIn": 0,
+    "amountOut": 0,
+    "balanceAfter": -7019.83,
+    "note": null
+  },
+  {
+    "no": 44,
+    "project": null,
+    "item": null,
+    "category": null,
+    "amountIn": 0,
+    "amountOut": 0,
+    "balanceAfter": -7019.83,
+    "note": null
+  }
+]

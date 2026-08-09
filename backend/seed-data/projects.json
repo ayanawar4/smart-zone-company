@@ -1,0 +1,1462 @@
+[
+  {
+    "name": "N.C",
+    "costItems": [
+      {
+        "no": 1,
+        "item": "hdd 1T",
+        "unitPrice": 2100.0,
+        "qty": 1.0,
+        "totalPrice": 2100.0
+      },
+      {
+        "no": 2,
+        "item": "مسامير وفيشر",
+        "unitPrice": 190.0,
+        "qty": 1.0,
+        "totalPrice": 190.0
+      },
+      {
+        "no": 3,
+        "item": "doom holder",
+        "unitPrice": 90.0,
+        "qty": 8.0,
+        "totalPrice": 720.0
+      },
+      {
+        "no": 4,
+        "item": "wire",
+        "unitPrice": 190.0,
+        "qty": 1.0,
+        "totalPrice": 190.0
+      },
+      {
+        "no": 5,
+        "item": "box",
+        "unitPrice": 150.0,
+        "qty": 2.0,
+        "totalPrice": 300.0
+      },
+      {
+        "no": 6,
+        "item": "كابل كهرباء",
+        "unitPrice": 20.0,
+        "qty": 10.0,
+        "totalPrice": 200.0
+      },
+      {
+        "no": 7,
+        "item": "لقمة كهرباء",
+        "unitPrice": 20.0,
+        "qty": 2.0,
+        "totalPrice": 40.0
+      },
+      {
+        "no": 8,
+        "item": "لفة مواسير",
+        "unitPrice": 1600.0,
+        "qty": 1.25,
+        "totalPrice": 2000.0
+      },
+      {
+        "no": 9,
+        "item": "PRORACK 45*60",
+        "unitPrice": 4164.0,
+        "qty": 1.0,
+        "totalPrice": 4164.0
+      },
+      {
+        "no": 10,
+        "item": "فليكسبل",
+        "unitPrice": 150.0,
+        "qty": 1.0,
+        "totalPrice": 150.0
+      },
+      {
+        "no": 11,
+        "item": "مسامير  راك وسلك رباط",
+        "unitPrice": 120.0,
+        "qty": 1.0,
+        "totalPrice": 120.0
+      },
+      {
+        "no": 12,
+        "item": "PROLINK CABLE",
+        "unitPrice": 21.0,
+        "qty": 293.0,
+        "totalPrice": 6153.0
+      },
+      {
+        "no": 13,
+        "item": "كاميرا 2 ميجا",
+        "unitPrice": 750.0,
+        "qty": 2.0,
+        "totalPrice": 1500.0
+      },
+      {
+        "no": 14,
+        "item": "Patch panel",
+        "unitPrice": 1896.0,
+        "qty": 1.0,
+        "totalPrice": 1896.0
+      },
+      {
+        "no": 15,
+        "item": "Patch cord",
+        "unitPrice": 35.7,
+        "qty": 10.0,
+        "totalPrice": 357.0
+      },
+      {
+        "no": 16,
+        "item": "cable organizer",
+        "unitPrice": 245.0,
+        "qty": 1.0,
+        "totalPrice": 245.0
+      },
+      {
+        "no": 17,
+        "item": "smart zone fee",
+        "unitPrice": 2700.0,
+        "qty": 1.0,
+        "totalPrice": 2700.0
+      },
+      {
+        "no": 18,
+        "item": "office box",
+        "unitPrice": 450.0,
+        "qty": 3.0,
+        "totalPrice": 1350.0
+      },
+      {
+        "no": 19,
+        "item": "hdd 1T",
+        "unitPrice": 2900.0,
+        "qty": 1.0,
+        "totalPrice": 2900.0
+      },
+      {
+        "no": 20,
+        "item": "accessory",
+        "unitPrice": 1050.0,
+        "qty": 1.0,
+        "totalPrice": 1050.0
+      },
+      {
+        "no": 21,
+        "item": "pc",
+        "unitPrice": 42.0,
+        "qty": 19.0,
+        "totalPrice": 798.0
+      },
+      {
+        "no": 22,
+        "item": "RJ",
+        "unitPrice": 200.0,
+        "qty": 1.0,
+        "totalPrice": 200.0
+      },
+      {
+        "no": 23,
+        "item": "TRANSPORT PETA",
+        "unitPrice": 100.0,
+        "qty": 1.0,
+        "totalPrice": 100.0
+      },
+      {
+        "no": 24,
+        "item": "1021",
+        "unitPrice": 675.0,
+        "qty": 1.0,
+        "totalPrice": 675.0
+      },
+      {
+        "no": null,
+        "item": "متبقى حوامل",
+        "unitPrice": 0,
+        "qty": 6.0,
+        "totalPrice": 0
+      }
+    ],
+    "installItems": [
+      {
+        "no": 1,
+        "date": null,
+        "name": "مواصلات عمرو",
+        "unitPrice": 110.0,
+        "qty": 1.0,
+        "totalPrice": 110.0
+      },
+      {
+        "no": 2,
+        "date": null,
+        "name": "sh ahmed",
+        "unitPrice": 300.0,
+        "qty": 1.0,
+        "totalPrice": 300.0
+      }
+    ],
+    "fundHistory": [],
+    "summary": {
+      "projectCostTotal": 30508.0,
+      "totalPayed": 0.0,
+      "fund": 0.0,
+      "hesham": 0.0,
+      "sayed": 0.0,
+      "projectAmount": 0.0,
+      "remain": -30508.0,
+      "installationTotal": 410.0,
+      "fundColumnTotal": 0.0,
+      "heshamColumnTotal": 0.0,
+      "sayedColumnTotal": 0.0,
+      "projectColumnTotal": 0.0
+    }
+  },
+  {
+    "name": "SERVER",
+    "costItems": [
+      {
+        "no": 1,
+        "item": "SERVER 1",
+        "unitPrice": 108300.0,
+        "qty": 1.0,
+        "totalPrice": 108300.0
+      },
+      {
+        "no": 2,
+        "item": "SERVER 2",
+        "unitPrice": 83000.0,
+        "qty": 1.0,
+        "totalPrice": 83000.0
+      }
+    ],
+    "installItems": [],
+    "fundHistory": [
+      191300.0
+    ],
+    "summary": {
+      "projectCostTotal": 191300.0,
+      "totalPayed": 191300.0,
+      "fund": 191300.0,
+      "hesham": 0.0,
+      "sayed": 0.0,
+      "projectAmount": 0.0,
+      "remain": 0.0,
+      "installationTotal": 0.0,
+      "fundColumnTotal": 191300.0,
+      "heshamColumnTotal": 0.0,
+      "sayedColumnTotal": 0.0,
+      "projectColumnTotal": 0.0
+    }
+  },
+  {
+    "name": "RTR",
+    "costItems": [
+      {
+        "no": 1,
+        "item": "PRO LINK CABLE",
+        "unitPrice": 0,
+        "qty": 0,
+        "totalPrice": 0.0
+      },
+      {
+        "no": 2,
+        "item": "NORTH AFRICA",
+        "unitPrice": 6075.0,
+        "qty": 1.0,
+        "totalPrice": 6075.0
+      },
+      {
+        "no": 3,
+        "item": "SOUND CABLE",
+        "unitPrice": 2300.0,
+        "qty": 1.0,
+        "totalPrice": 2300.0
+      },
+      {
+        "no": 4,
+        "item": "مشتروات",
+        "unitPrice": 820.0,
+        "qty": 1.0,
+        "totalPrice": 820.0
+      },
+      {
+        "no": 5,
+        "item": "مشتروات",
+        "unitPrice": 940.0,
+        "qty": 1.0,
+        "totalPrice": 940.0
+      },
+      {
+        "no": 6,
+        "item": "مشتروات",
+        "unitPrice": 200.0,
+        "qty": 1.0,
+        "totalPrice": 200.0
+      },
+      {
+        "no": 7,
+        "item": "CAM 1163",
+        "unitPrice": 2665.0,
+        "qty": 11.0,
+        "totalPrice": 29315.0
+      },
+      {
+        "no": 8,
+        "item": "CAM 1063",
+        "unitPrice": 2650.0,
+        "qty": 3.0,
+        "totalPrice": 7950.0
+      },
+      {
+        "no": 9,
+        "item": "HDD 8T",
+        "unitPrice": 14420.0,
+        "qty": 1.0,
+        "totalPrice": 14420.0
+      },
+      {
+        "no": 10,
+        "item": "DISH WIRE",
+        "unitPrice": 450.0,
+        "qty": 1.0,
+        "totalPrice": 450.0
+      },
+      {
+        "no": 11,
+        "item": "SOUND CABLE",
+        "unitPrice": 2400.0,
+        "qty": 1.0,
+        "totalPrice": 2400.0
+      },
+      {
+        "no": 12,
+        "item": "SWEEDY DISH",
+        "unitPrice": 3630.0,
+        "qty": 1.0,
+        "totalPrice": 3630.0
+      },
+      {
+        "no": 13,
+        "item": "BRAND CONNECTION",
+        "unitPrice": 180180.0,
+        "qty": 1.0,
+        "totalPrice": 180180.0
+      },
+      {
+        "no": 14,
+        "item": "WATANIA SOUND",
+        "unitPrice": 45900.0,
+        "qty": 1.0,
+        "totalPrice": 45900.0
+      },
+      {
+        "no": 15,
+        "item": "ACCESS CONTROL",
+        "unitPrice": 16605.0,
+        "qty": 1.0,
+        "totalPrice": 16605.0
+      },
+      {
+        "no": 16,
+        "item": "VENUS DEP",
+        "unitPrice": 9210.0,
+        "qty": 1.0,
+        "totalPrice": 9210.0
+      },
+      {
+        "no": 17,
+        "item": "منشار جبس",
+        "unitPrice": 195.0,
+        "qty": 1.0,
+        "totalPrice": 195.0
+      },
+      {
+        "no": 18,
+        "item": "DISH WIRE",
+        "unitPrice": 250.0,
+        "qty": 1.0,
+        "totalPrice": 250.0
+      },
+      {
+        "no": 19,
+        "item": "product",
+        "unitPrice": 200.0,
+        "qty": 1.0,
+        "totalPrice": 200.0
+      },
+      {
+        "no": 20,
+        "item": "RG",
+        "unitPrice": 300.0,
+        "qty": 1.0,
+        "totalPrice": 300.0
+      }
+    ],
+    "installItems": [
+      {
+        "no": 1,
+        "date": "2026-03-26",
+        "name": "SH AHMED",
+        "unitPrice": 550.0,
+        "qty": 1.0,
+        "totalPrice": 550.0
+      },
+      {
+        "no": 2,
+        "date": "2026-03-31",
+        "name": "Amr&helper",
+        "unitPrice": 800.0,
+        "qty": 1.0,
+        "totalPrice": 800.0
+      },
+      {
+        "no": 3,
+        "date": "2026-04-01",
+        "name": "Amr&helper",
+        "unitPrice": 900.0,
+        "qty": 1.0,
+        "totalPrice": 900.0
+      },
+      {
+        "no": 4,
+        "date": "2026-04-02",
+        "name": "Amr&helper",
+        "unitPrice": 850.0,
+        "qty": 1.0,
+        "totalPrice": 850.0
+      },
+      {
+        "no": 5,
+        "date": "2026-04-04",
+        "name": "Amr",
+        "unitPrice": 500.0,
+        "qty": 1.0,
+        "totalPrice": 500.0
+      },
+      {
+        "no": 6,
+        "date": "2026-04-05",
+        "name": "Amr&helper",
+        "unitPrice": 850.0,
+        "qty": 1.0,
+        "totalPrice": 850.0
+      },
+      {
+        "no": 7,
+        "date": null,
+        "name": "TRANSPORT",
+        "unitPrice": 165.0,
+        "qty": 1.0,
+        "totalPrice": 165.0
+      },
+      {
+        "no": 8,
+        "date": null,
+        "name": "TRANSPORT",
+        "unitPrice": 250.0,
+        "qty": 1.0,
+        "totalPrice": 250.0
+      },
+      {
+        "no": 9,
+        "date": null,
+        "name": "TRANSPORT",
+        "unitPrice": 200.0,
+        "qty": 1.0,
+        "totalPrice": 200.0
+      },
+      {
+        "no": 10,
+        "date": "2026-06-02",
+        "name": "CABLE TRANSP",
+        "unitPrice": 200.0,
+        "qty": 1.0,
+        "totalPrice": 200.0
+      },
+      {
+        "no": 11,
+        "date": "2026-07-20",
+        "name": "amr kh",
+        "unitPrice": 350.0,
+        "qty": 2.0,
+        "totalPrice": 700.0
+      },
+      {
+        "no": 12,
+        "date": "2026-07-20",
+        "name": "transport",
+        "unitPrice": 400.0,
+        "qty": 1.0,
+        "totalPrice": 400.0
+      }
+    ],
+    "fundHistory": [],
+    "summary": {
+      "projectCostTotal": 327705.0,
+      "totalPayed": 358000.0,
+      "fund": 0.0,
+      "hesham": 0.0,
+      "sayed": 0.0,
+      "projectAmount": 358000.0,
+      "remain": 30295.0,
+      "installationTotal": 6365.0,
+      "fundColumnTotal": 0.0,
+      "heshamColumnTotal": 0.0,
+      "sayedColumnTotal": 0.0,
+      "projectColumnTotal": 358000.0
+    }
+  },
+  {
+    "name": "HILTON K.R",
+    "costItems": [
+      {
+        "no": 1,
+        "item": "CAM 1163",
+        "unitPrice": 2785.0,
+        "qty": 35.0,
+        "totalPrice": 97475.0
+      },
+      {
+        "no": 2,
+        "item": "HDD 8T",
+        "unitPrice": 14250.0,
+        "qty": 16.0,
+        "totalPrice": 228000.0
+      },
+      {
+        "no": 3,
+        "item": "CAM 1121",
+        "unitPrice": 1100.0,
+        "qty": 3.0,
+        "totalPrice": 3300.0
+      },
+      {
+        "no": 4,
+        "item": "Patch cord .5 m",
+        "unitPrice": 54.0,
+        "qty": 120.0,
+        "totalPrice": 6480.0
+      },
+      {
+        "no": 5,
+        "item": "PDU",
+        "unitPrice": 600.0,
+        "qty": 1.0,
+        "totalPrice": 600.0
+      },
+      {
+        "no": 6,
+        "item": "مشتروات HILTON G.P",
+        "unitPrice": 200.0,
+        "qty": 1.0,
+        "totalPrice": 200.0
+      },
+      {
+        "no": 7,
+        "item": "HOLDER",
+        "unitPrice": 4180.0,
+        "qty": 1.0,
+        "totalPrice": 4180.0
+      },
+      {
+        "no": 8,
+        "item": "BETA SWITCH",
+        "unitPrice": 681000.0,
+        "qty": 1.0,
+        "totalPrice": 681000.0
+      },
+      {
+        "no": 9,
+        "item": "BETA B.T.B ORDER",
+        "unitPrice": 105760.0,
+        "qty": 1.0,
+        "totalPrice": 105760.0
+      },
+      {
+        "no": 10,
+        "item": "SPEED CAM&NVR",
+        "unitPrice": 357512.0,
+        "qty": 1.0,
+        "totalPrice": 357512.0
+      },
+      {
+        "no": 11,
+        "item": "CAM 1163 STORE",
+        "unitPrice": 2350.0,
+        "qty": 50.0,
+        "totalPrice": 117500.0
+      },
+      {
+        "no": 12,
+        "item": "عدة",
+        "unitPrice": 500.0,
+        "qty": 1.0,
+        "totalPrice": 500.0
+      },
+      {
+        "no": 13,
+        "item": "printer tabe",
+        "unitPrice": 255.0,
+        "qty": 5.0,
+        "totalPrice": 1275.0
+      },
+      {
+        "no": 14,
+        "item": "Test fulk G.P",
+        "unitPrice": 3600.0,
+        "qty": 1.0,
+        "totalPrice": 3600.0
+      },
+      {
+        "no": 15,
+        "item": "HOLDER",
+        "unitPrice": 240.0,
+        "qty": 3.0,
+        "totalPrice": 720.0
+      },
+      {
+        "no": 16,
+        "item": "غداء عبدالوهاب",
+        "unitPrice": 7490.0,
+        "qty": 1.0,
+        "totalPrice": 7490.0
+      },
+      {
+        "no": 17,
+        "item": "MR MEHLAWY",
+        "unitPrice": 24362.0,
+        "qty": 1.0,
+        "totalPrice": 24362.0
+      },
+      {
+        "no": 18,
+        "item": "MR MEHLAWY",
+        "unitPrice": 25638.0,
+        "qty": 1.0,
+        "totalPrice": 25638.0
+      }
+    ],
+    "installItems": [
+      {
+        "no": 1,
+        "date": null,
+        "name": "Speed transportation",
+        "unitPrice": 530.0,
+        "qty": 1.0,
+        "totalPrice": 530.0
+      },
+      {
+        "no": 2,
+        "date": null,
+        "name": "PETA transportation",
+        "unitPrice": 1000.0,
+        "qty": 1.0,
+        "totalPrice": 1000.0
+      },
+      {
+        "no": 3,
+        "date": null,
+        "name": "TRANS",
+        "unitPrice": 135.0,
+        "qty": 1.0,
+        "totalPrice": 135.0
+      },
+      {
+        "no": 4,
+        "date": "2026-05-13",
+        "name": "مصاريف رواتب",
+        "unitPrice": 40000.0,
+        "qty": 1.0,
+        "totalPrice": 40000.0
+      },
+      {
+        "no": 5,
+        "date": null,
+        "name": "مسامير +مواصلات",
+        "unitPrice": 370.0,
+        "qty": 1.0,
+        "totalPrice": 370.0
+      }
+    ],
+    "fundHistory": [
+      174397.0,
+      8610.0,
+      4380.0,
+      681000.0,
+      165000.0,
+      357512.0,
+      77189.0,
+      77189.0,
+      117500.0,
+      13185.0,
+      2850.0,
+      -59240.0,
+      -13185.0,
+      135.0,
+      500.0,
+      40000.0,
+      3600.0,
+      -2850.0,
+      1275.0,
+      480.0,
+      370.0,
+      240.0,
+      7490.0,
+      24362.0,
+      25638.0
+    ],
+    "summary": {
+      "projectCostTotal": 1707627.0,
+      "totalPayed": 1707627.0,
+      "fund": 1707627.0,
+      "hesham": 0.0,
+      "sayed": 0.0,
+      "projectAmount": 0.0,
+      "remain": 0.0,
+      "installationTotal": 42035.0,
+      "fundColumnTotal": 1707627.0,
+      "heshamColumnTotal": 0.0,
+      "sayedColumnTotal": 0.0,
+      "projectColumnTotal": 0.0
+    }
+  },
+  {
+    "name": "A.P",
+    "costItems": [
+      {
+        "no": 1,
+        "item": "TP LINK A.P",
+        "unitPrice": 665.0,
+        "qty": 15.0,
+        "totalPrice": 9975.0
+      },
+      {
+        "no": 2,
+        "item": "TP LINK A.P",
+        "unitPrice": 665.0,
+        "qty": 23.0,
+        "totalPrice": 15295.0
+      },
+      {
+        "no": 3,
+        "item": "TP LINK A.P",
+        "unitPrice": 665.0,
+        "qty": 34.0,
+        "totalPrice": 22610.0
+      }
+    ],
+    "installItems": [
+      {
+        "no": 1,
+        "date": null,
+        "name": "TRANSP",
+        "unitPrice": 60.0,
+        "qty": 1.0,
+        "totalPrice": 60.0
+      },
+      {
+        "no": 2,
+        "date": null,
+        "name": "TRANSP",
+        "unitPrice": 50.0,
+        "qty": 1.0,
+        "totalPrice": 50.0
+      },
+      {
+        "no": 3,
+        "date": null,
+        "name": "HILTON COR",
+        "unitPrice": 120.0,
+        "qty": 1.0,
+        "totalPrice": 120.0
+      }
+    ],
+    "fundHistory": [
+      9975.0,
+      15295.0,
+      60.0,
+      22610.0,
+      50.0,
+      120.0
+    ],
+    "summary": {
+      "projectCostTotal": 48110.0,
+      "totalPayed": 48110.0,
+      "fund": 48110.0,
+      "hesham": 0.0,
+      "sayed": 0.0,
+      "projectAmount": 0.0,
+      "remain": 0.0,
+      "installationTotal": 230.0,
+      "fundColumnTotal": 48110.0,
+      "heshamColumnTotal": 0.0,
+      "sayedColumnTotal": 0.0,
+      "projectColumnTotal": 0.0
+    }
+  },
+  {
+    "name": "SHOMAN HOME",
+    "costItems": [
+      {
+        "no": 1,
+        "item": "DUCT",
+        "unitPrice": 400.0,
+        "qty": 1.0,
+        "totalPrice": 400.0
+      },
+      {
+        "no": 2,
+        "item": "CAM 1163",
+        "unitPrice": 2680.0,
+        "qty": 3.0,
+        "totalPrice": 8040.0
+      },
+      {
+        "no": 3,
+        "item": "HOLDER",
+        "unitPrice": 95.0,
+        "qty": 4.0,
+        "totalPrice": 380.0
+      },
+      {
+        "no": 4,
+        "item": "NVR 4 PORT",
+        "unitPrice": 2280.0,
+        "qty": 1.0,
+        "totalPrice": 2280.0
+      },
+      {
+        "no": 5,
+        "item": "HDD 1T",
+        "unitPrice": 1740.0,
+        "qty": 1.0,
+        "totalPrice": 1740.0
+      },
+      {
+        "no": 6,
+        "item": "Cable cat 6",
+        "unitPrice": 0.0,
+        "qty": 70.0,
+        "totalPrice": 0.0
+      }
+    ],
+    "installItems": [
+      {
+        "no": 1,
+        "date": null,
+        "name": "CAIRO",
+        "unitPrice": 2355.0,
+        "qty": 1.0,
+        "totalPrice": 2355.0
+      },
+      {
+        "no": 2,
+        "date": null,
+        "name": "BOUNCE1",
+        "unitPrice": 500.0,
+        "qty": 1.0,
+        "totalPrice": 500.0
+      },
+      {
+        "no": 3,
+        "date": null,
+        "name": "BOUNCE2",
+        "unitPrice": 500.0,
+        "qty": 1.0,
+        "totalPrice": 500.0
+      },
+      {
+        "no": 4,
+        "date": null,
+        "name": "CAIRO2",
+        "unitPrice": 1240.0,
+        "qty": 1.0,
+        "totalPrice": 1240.0
+      }
+    ],
+    "fundHistory": [
+      2755.0,
+      500.0,
+      12440.0,
+      1740.0
+    ],
+    "summary": {
+      "projectCostTotal": 17435.0,
+      "totalPayed": 17435.0,
+      "fund": 17435.0,
+      "hesham": 0.0,
+      "sayed": 0.0,
+      "projectAmount": 0.0,
+      "remain": 0.0,
+      "installationTotal": 4595.0,
+      "fundColumnTotal": 17435.0,
+      "heshamColumnTotal": 0.0,
+      "sayedColumnTotal": 0.0,
+      "projectColumnTotal": 0.0
+    }
+  },
+  {
+    "name": "OROUBA CAM",
+    "costItems": [
+      {
+        "no": 1,
+        "item": "NORTH AFRICA",
+        "unitPrice": 2820.0,
+        "qty": 1.0,
+        "totalPrice": 2820.0
+      },
+      {
+        "no": 2,
+        "item": "CAM 1163",
+        "unitPrice": 2680.0,
+        "qty": 1.0,
+        "totalPrice": 2680.0
+      },
+      {
+        "no": 3,
+        "item": "HOLDER",
+        "unitPrice": 95.0,
+        "qty": 2.0,
+        "totalPrice": 190.0
+      },
+      {
+        "no": 4,
+        "item": "مسامير و كاتر",
+        "unitPrice": 180.0,
+        "qty": 1.0,
+        "totalPrice": 180.0
+      },
+      {
+        "no": 5,
+        "item": "Cat 6",
+        "unitPrice": 0.0,
+        "qty": 95.0,
+        "totalPrice": 0.0
+      }
+    ],
+    "installItems": [
+      {
+        "no": 1,
+        "date": null,
+        "name": "TRANSP",
+        "unitPrice": 900.0,
+        "qty": 1.0,
+        "totalPrice": 900.0
+      },
+      {
+        "no": 2,
+        "date": null,
+        "name": "FOOD",
+        "unitPrice": 135.0,
+        "qty": 1.0,
+        "totalPrice": 135.0
+      }
+    ],
+    "fundHistory": [
+      4035.0,
+      2870.0
+    ],
+    "summary": {
+      "projectCostTotal": 6905.0,
+      "totalPayed": 6905.0,
+      "fund": 6905.0,
+      "hesham": 0.0,
+      "sayed": 0.0,
+      "projectAmount": 0.0,
+      "remain": 0.0,
+      "installationTotal": 1035.0,
+      "fundColumnTotal": 6905.0,
+      "heshamColumnTotal": 0.0,
+      "sayedColumnTotal": 0.0,
+      "projectColumnTotal": 0.0
+    }
+  },
+  {
+    "name": "MR MAMDOUH",
+    "costItems": [
+      {
+        "no": 1,
+        "item": "CAM EZ IN",
+        "unitPrice": 1050.0,
+        "qty": 3.0,
+        "totalPrice": 3150.0
+      },
+      {
+        "no": 2,
+        "item": "CAM EZ OUT",
+        "unitPrice": 4500.0,
+        "qty": 1.0,
+        "totalPrice": 4500.0
+      },
+      {
+        "no": 3,
+        "item": "مشتروات",
+        "unitPrice": 335.0,
+        "qty": 1.0,
+        "totalPrice": 335.0
+      }
+    ],
+    "installItems": [
+      {
+        "no": 1,
+        "date": null,
+        "name": "TEANSPORT",
+        "unitPrice": 1240.0,
+        "qty": 1.0,
+        "totalPrice": 1240.0
+      },
+      {
+        "no": 2,
+        "date": null,
+        "name": "ISLAM&ABD",
+        "unitPrice": 500.0,
+        "qty": 1.0,
+        "totalPrice": 500.0
+      },
+      {
+        "no": 3,
+        "date": "2026-07-06",
+        "name": "TRANSP",
+        "unitPrice": 1490.0,
+        "qty": 1.0,
+        "totalPrice": 1490.0
+      },
+      {
+        "no": 4,
+        "date": "2026-07-06",
+        "name": "BOUNSE",
+        "unitPrice": 300.0,
+        "qty": 1.0,
+        "totalPrice": 300.0
+      }
+    ],
+    "fundHistory": [
+      1825.0,
+      300.0,
+      9390.0
+    ],
+    "summary": {
+      "projectCostTotal": 11515.0,
+      "totalPayed": 11515.0,
+      "fund": 11515.0,
+      "hesham": 0.0,
+      "sayed": 0.0,
+      "projectAmount": 0.0,
+      "remain": 0.0,
+      "installationTotal": 3530.0,
+      "fundColumnTotal": 11515.0,
+      "heshamColumnTotal": 0.0,
+      "sayedColumnTotal": 0.0,
+      "projectColumnTotal": 0.0
+    }
+  },
+  {
+    "name": "MR MAMDOUH (2)",
+    "costItems": [
+      {
+        "no": 1,
+        "item": "NVR",
+        "unitPrice": 4325.0,
+        "qty": 1.0,
+        "totalPrice": 4325.0
+      }
+    ],
+    "installItems": [],
+    "fundHistory": [
+      4325.0
+    ],
+    "summary": {
+      "projectCostTotal": 4325.0,
+      "totalPayed": 4325.0,
+      "fund": 4325.0,
+      "hesham": 0.0,
+      "sayed": 0.0,
+      "projectAmount": 0.0,
+      "remain": 0.0,
+      "installationTotal": 0.0,
+      "fundColumnTotal": 4325.0,
+      "heshamColumnTotal": 0.0,
+      "sayedColumnTotal": 0.0,
+      "projectColumnTotal": 0.0
+    }
+  },
+  {
+    "name": "HILTON CORNECH",
+    "costItems": [
+      {
+        "no": 1,
+        "item": "PIPE",
+        "unitPrice": 1100.0,
+        "qty": 1.0,
+        "totalPrice": 1100.0
+      },
+      {
+        "no": 2,
+        "item": "CAT6 PROLINK",
+        "unitPrice": 100.0,
+        "qty": 23.65,
+        "totalPrice": 2365.0
+      }
+    ],
+    "installItems": [
+      {
+        "no": 1,
+        "date": null,
+        "name": "TRANSPORT",
+        "unitPrice": 200.0,
+        "qty": 1.0,
+        "totalPrice": 200.0
+      },
+      {
+        "no": 2,
+        "date": null,
+        "name": "AMR",
+        "unitPrice": 300.0,
+        "qty": 1.0,
+        "totalPrice": 300.0
+      }
+    ],
+    "fundHistory": [
+      1600.0,
+      2365.0
+    ],
+    "summary": {
+      "projectCostTotal": 3965.0,
+      "totalPayed": 3965.0,
+      "fund": 3965.0,
+      "hesham": 0.0,
+      "sayed": 0.0,
+      "projectAmount": 0.0,
+      "remain": 0.0,
+      "installationTotal": 500.0,
+      "fundColumnTotal": 3965.0,
+      "heshamColumnTotal": 0.0,
+      "sayedColumnTotal": 0.0,
+      "projectColumnTotal": 0.0
+    }
+  },
+  {
+    "name": "SPA VILLA",
+    "costItems": [
+      {
+        "no": 1,
+        "item": "CAM 1163",
+        "unitPrice": 5912.0,
+        "qty": 1.0,
+        "totalPrice": 5912.0
+      },
+      {
+        "no": 2,
+        "item": "NANO STATION",
+        "unitPrice": 3905.0,
+        "qty": 4.0,
+        "totalPrice": 15620.0
+      },
+      {
+        "no": 3,
+        "item": "CAM 1163",
+        "unitPrice": 2680.0,
+        "qty": 7.0,
+        "totalPrice": 18760.0
+      },
+      {
+        "no": 4,
+        "item": "HOLDER",
+        "unitPrice": 95.0,
+        "qty": 7.0,
+        "totalPrice": 665.0
+      }
+    ],
+    "installItems": [
+      {
+        "no": 1,
+        "date": null,
+        "name": "Sh Ahmed",
+        "unitPrice": 600.0,
+        "qty": 2.0,
+        "totalPrice": 1200.0
+      },
+      {
+        "no": 2,
+        "date": null,
+        "name": "BOUNS",
+        "unitPrice": 250.0,
+        "qty": 1.0,
+        "totalPrice": 250.0
+      },
+      {
+        "no": 3,
+        "date": null,
+        "name": "RJ",
+        "unitPrice": 600.0,
+        "qty": 1.0,
+        "totalPrice": 600.0
+      },
+      {
+        "no": 4,
+        "date": null,
+        "name": "BOUNS",
+        "unitPrice": 480.0,
+        "qty": 1.0,
+        "totalPrice": 480.0
+      },
+      {
+        "no": 5,
+        "date": null,
+        "name": "AMR",
+        "unitPrice": 500.0,
+        "qty": 1.0,
+        "totalPrice": 500.0
+      }
+    ],
+    "fundHistory": [
+      1200.0,
+      1330.0,
+      500.0,
+      40957.0
+    ],
+    "summary": {
+      "projectCostTotal": 43987.0,
+      "totalPayed": 43987.0,
+      "fund": 43987.0,
+      "hesham": 0.0,
+      "sayed": 0.0,
+      "projectAmount": 0.0,
+      "remain": 0.0,
+      "installationTotal": 3030.0,
+      "fundColumnTotal": 43987.0,
+      "heshamColumnTotal": 0.0,
+      "sayedColumnTotal": 0.0,
+      "projectColumnTotal": 0.0
+    }
+  },
+  {
+    "name": "HILTON CAM",
+    "costItems": [
+      {
+        "no": 1,
+        "item": "CAM1163",
+        "unitPrice": 2680.0,
+        "qty": 1.0,
+        "totalPrice": 2680.0
+      },
+      {
+        "no": 2,
+        "item": "HOLDER",
+        "unitPrice": 95.0,
+        "qty": 1.0,
+        "totalPrice": 95.0
+      }
+    ],
+    "installItems": [
+      {
+        "no": 1,
+        "date": null,
+        "name": "CORE",
+        "unitPrice": 1500.0,
+        "qty": 1.0,
+        "totalPrice": 1500.0
+      }
+    ],
+    "fundHistory": [
+      2775.0,
+      1500.0
+    ],
+    "summary": {
+      "projectCostTotal": 4275.0,
+      "totalPayed": 4275.0,
+      "fund": 4275.0,
+      "hesham": 0.0,
+      "sayed": 0.0,
+      "projectAmount": 0.0,
+      "remain": 0.0,
+      "installationTotal": 1500.0,
+      "fundColumnTotal": 4275.0,
+      "heshamColumnTotal": 0.0,
+      "sayedColumnTotal": 0.0,
+      "projectColumnTotal": 0.0
+    }
+  },
+  {
+    "name": "HILTON CORNECH 2",
+    "costItems": [
+      {
+        "no": 1,
+        "item": "PATCH PANEL",
+        "unitPrice": 2456.0,
+        "qty": 2.0,
+        "totalPrice": 4912.0
+      },
+      {
+        "no": 2,
+        "item": "PATCH CORD .25 M",
+        "unitPrice": 48.0,
+        "qty": 24.0,
+        "totalPrice": 1152.0
+      },
+      {
+        "no": 3,
+        "item": "PROLINK CAT6",
+        "unitPrice": 5912.0,
+        "qty": 2.0,
+        "totalPrice": 11824.0
+      },
+      {
+        "no": 4,
+        "item": "UTP CAT6 A",
+        "unitPrice": 0.0,
+        "qty": 30.0,
+        "totalPrice": 0.0
+      },
+      {
+        "no": 5,
+        "item": "FACE PLATE SINGLE",
+        "unitPrice": 169.0,
+        "qty": 25.0,
+        "totalPrice": 4225.0
+      },
+      {
+        "no": 6,
+        "item": "RACK 9 U",
+        "unitPrice": 4164.0,
+        "qty": 1.0,
+        "totalPrice": 4164.0
+      }
+    ],
+    "installItems": [
+      {
+        "no": 1,
+        "date": null,
+        "name": "SH AHMED",
+        "unitPrice": 400.0,
+        "qty": 1.0,
+        "totalPrice": 400.0
+      },
+      {
+        "no": 2,
+        "date": null,
+        "name": "نثريات",
+        "unitPrice": 100.0,
+        "qty": 1.0,
+        "totalPrice": 100.0
+      }
+    ],
+    "fundHistory": [
+      500.0,
+      10289.0,
+      15988.0
+    ],
+    "summary": {
+      "projectCostTotal": 26777.0,
+      "totalPayed": 26777.0,
+      "fund": 26777.0,
+      "hesham": 0.0,
+      "sayed": 0.0,
+      "projectAmount": 0.0,
+      "remain": 0.0,
+      "installationTotal": 500.0,
+      "fundColumnTotal": 26777.0,
+      "heshamColumnTotal": 0.0,
+      "sayedColumnTotal": 0.0,
+      "projectColumnTotal": 0.0
+    }
+  },
+  {
+    "name": "HILTON G.P 300s",
+    "costItems": [
+      {
+        "no": 1,
+        "item": "SWITCH AROUBA",
+        "unitPrice": 17828.0,
+        "qty": 1.0,
+        "totalPrice": 17828.0
+      },
+      {
+        "no": 2,
+        "item": "UNIVERSE",
+        "unitPrice": 204470.0,
+        "qty": 1.0,
+        "totalPrice": 204470.0
+      },
+      {
+        "no": 3,
+        "item": "RACK 27U",
+        "unitPrice": 0,
+        "qty": 1.0,
+        "totalPrice": 0.0
+      },
+      {
+        "no": 4,
+        "item": "PROLINK CAT6",
+        "unitPrice": 5912.0,
+        "qty": 3.0,
+        "totalPrice": 17736.0
+      },
+      {
+        "no": 5,
+        "item": "KEY STONE",
+        "unitPrice": 69.0,
+        "qty": 38.0,
+        "totalPrice": 2622.0
+      },
+      {
+        "no": 6,
+        "item": "cable orgnizer",
+        "unitPrice": 320.0,
+        "qty": 1.0,
+        "totalPrice": 320.0
+      },
+      {
+        "no": 7,
+        "item": "cam 1163",
+        "unitPrice": 2655.0,
+        "qty": 10.0,
+        "totalPrice": 26550.0
+      },
+      {
+        "no": 8,
+        "item": "prolink CAT6A",
+        "unitPrice": 0.0,
+        "qty": 60.0,
+        "totalPrice": 0.0
+      },
+      {
+        "no": 9,
+        "item": "PATCH CORD .5M",
+        "unitPrice": 53.0,
+        "qty": 24.0,
+        "totalPrice": 1272.0
+      }
+    ],
+    "installItems": [
+      {
+        "no": 1,
+        "date": null,
+        "name": "TRANSPORT",
+        "unitPrice": 250.0,
+        "qty": 1.0,
+        "totalPrice": 250.0
+      }
+    ],
+    "fundHistory": [
+      222298.0,
+      48500.0,
+      250.0
+    ],
+    "summary": {
+      "projectCostTotal": 271048.0,
+      "totalPayed": 271048.0,
+      "fund": 271048.0,
+      "hesham": 0.0,
+      "sayed": 0.0,
+      "projectAmount": 0.0,
+      "remain": 0.0,
+      "installationTotal": 250.0,
+      "fundColumnTotal": 271048.0,
+      "heshamColumnTotal": 0.0,
+      "sayedColumnTotal": 0.0,
+      "projectColumnTotal": 0.0
+    }
+  }
+]
