@@ -9,17 +9,26 @@ const server = express();
 let isReady = false;
 
 async function bootstrap() {
-  if (isReady) return server;
-  const app = await NestFactory.create(AppModule, new ExpressAdapter(server), { logger: false });
-  app.enableCors();
-  app.setGlobalPrefix('api');
-  app.useGlobalPipes(new ValidationPipe({ whitelist: true, transform: true, forbidNonWhitelisted: false }));
-  await app.init();
-  isReady = true;
-  return server;
+  if (isReady) return;
+  try {
+    const app = await NestFactory.create(AppModule, new ExpressAdapter(server), { logger: ['error', 'warn'] });
+    app.enableCors();
+    app.setGlobalPrefix('api');
+    app.useGlobalPipes(new ValidationPipe({ whitelist: true, transform: true, forbidNonWhitelisted: false }));
+    await app.init();
+    isReady = true;
+  } catch (err) {
+    console.error('Bootstrap error:', err);
+    throw err;
+  }
 }
 
-export default async (req: any, res: any) => {
-  await bootstrap();
-  server(req, res);
+export default async (req: express.Request, res: express.Response) => {
+  try {
+    await bootstrap();
+    server(req, res);
+  } catch (err) {
+    console.error('Request error:', err);
+    res.status(500).json({ error: String(err) });
+  }
 };
