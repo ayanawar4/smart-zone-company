@@ -1,5 +1,6 @@
 {
   "buildCommand": "cd client && npm install && npm run build && cd .. && npm install",
+  "outputDirectory": "public",
   "functions": {
     "api/index.ts": {
       "memory": 512,
