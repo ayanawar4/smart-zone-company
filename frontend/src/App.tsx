@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import Dashboard from './pages/Dashboard';
@@ -10,9 +11,12 @@ import Invoices from './pages/Invoices';
 import Employees from './pages/Employees';
 
 export default function App() {
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
   return (
     <div className="app-shell">
-      <Sidebar />
+      <button className="sidebar-toggle" onClick={() => setSidebarOpen(true)}>☰</button>
+      <Sidebar open={sidebarOpen} onClose={() => setSidebarOpen(false)} />
       <main className="main">
         <Routes>
           <Route path="/" element={<Dashboard />} />

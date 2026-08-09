@@ -33,15 +33,7 @@ async function run() {
   await dataSource.initialize();
   console.log('Connected to Neon Postgres. Clearing existing data...');
 
-  await dataSource.getRepository(ProjectCostItem).clear();
-  await dataSource.getRepository(ProjectInstallItem).clear();
-  await dataSource.getRepository(ProjectFundEntry).clear();
-  await dataSource.getRepository(Project).clear();
-  await dataSource.getRepository(FundTransaction).clear();
-  await dataSource.getRepository(Expense).clear();
-  await dataSource.getRepository(Salary).clear();
-  await dataSource.getRepository(Invoice).clear();
-  await dataSource.getRepository(Employee).clear();
+  await dataSource.query('TRUNCATE TABLE project_cost_item, project_install_item, project_fund_entry, project, fund_transaction, expense, salary, invoice, employee RESTART IDENTITY CASCADE');
 
   // ---- Projects ----
   const projects = readJson('projects.json');
