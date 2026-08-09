@@ -1,13 +1,10 @@
 services:
   - type: web
-    name: smart-zone-backend
+    name: smart-zone
     runtime: node
-    rootDir: backend
-    buildCommand: npm install && npm run build
-    startCommand: npm run start:render
+    buildCommand: cd frontend && npm install && npm run build && cd ../backend && npm install && npm run build
+    startCommand: node backend/dist/main.js
     envVars:
-      - key: PORT
-        value: 3001
       - key: NODE_ENV
         value: production
       - key: DATABASE_URL
