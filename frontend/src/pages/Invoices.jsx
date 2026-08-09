@@ -1,38 +1,41 @@
+import { useLang } from '../lang';
 import CrudPage from '../components/CrudPage';
 import { money } from '../utils';
 
 export default function Invoices() {
+  const { t } = useLang();
   return (
     <CrudPage
-      title="الفواتير · Invoices"
-      subtitle="فواتير العملاء وحالة السداد / Client invoices & payment status"
+      title={t.inv_title}
+      subtitle={t.inv_subtitle}
       endpoint="/invoices"
       searchKeys={['customer', 'project', 'invoiceNo']}
       columns={[
-        { key: 'date', label: 'التاريخ · Date' },
-        { key: 'invoiceNo', label: 'رقم الفاتورة · No.' },
-        { key: 'customer', label: 'العميل · Customer' },
-        { key: 'project', label: 'المشروع · Project' },
-        { key: 'subtotal', label: 'قبل الضريبة · Subtotal', render: money },
-        { key: 'vat', label: 'الضريبة · VAT', render: money },
-        { key: 'total', label: 'الإجمالي · Total', render: money },
-        { key: 'statusDone', label: 'الحالة · Status', render: (v, r) => (v ? 'منجز · Done' : r.statusUnderConstruction ? 'قيد التنفيذ · In progress' : '—') },
-        { key: 'remainSmartZone', label: 'متبقي لسمارت زون · Remain', render: money },
+        { key: 'date', label: t.col_date },
+        { key: 'invoiceNo', label: t.col_inv_no },
+        { key: 'customer', label: t.col_customer },
+        { key: 'project', label: t.col_project_label },
+        { key: 'subtotal', label: t.col_subtotal, render: money },
+        { key: 'vat', label: t.col_vat, render: money },
+        { key: 'total', label: t.col_inv_total, render: money },
+        { key: 'statusDone', label: t.col_inv_status, render: (v, r) => (v ? t.status_done : r.statusUnderConstruction ? t.status_inprogress : '—') },
+        { key: 'remainSmartZone', label: t.col_remain_sz, render: money },
       ]}
       formFields={[
-        { key: 'date', label: 'التاريخ · Date', type: 'date' },
-        { key: 'invoiceNo', label: 'رقم الفاتورة · No.', type: 'number' },
-        { key: 'customer', label: 'العميل · Customer', type: 'text' },
-        { key: 'project', label: 'المشروع · Project', type: 'text' },
-        { key: 'subtotal', label: 'قبل الضريبة · Subtotal', type: 'number' },
-        { key: 'vat', label: 'الضريبة · VAT', type: 'number' },
-        { key: 'total', label: 'الإجمالي · Total', type: 'number' },
-        { key: 'statusDone', label: 'منجز؟ · Done', type: 'checkbox' },
-        { key: 'statusUnderConstruction', label: 'قيد التنفيذ؟ · In progress', type: 'checkbox' },
-        { key: 'commission3pct', label: 'عمولة 3% · Commission 3%', type: 'number' },
-        { key: 'commission1pct', label: 'عمولة 1% · Commission 1%', type: 'number' },
-        { key: 'remainSmartZone', label: 'متبقي لسمارت زون · Remain (Smart Zone)', type: 'number' },
-        { key: 'remainCustomer', label: 'متبقي على العميل · Remain (Customer)', type: 'number' },
+        { key: 'date', label: t.col_date, type: 'date' },
+        { key: 'invoiceNo', label: t.col_inv_no, type: 'number' },
+        { key: 'customer', label: t.col_customer, type: 'text' },
+        { key: 'project', label: t.col_project_label, type: 'text' },
+        { key: 'deposit', label: t.field_deposit, type: 'number' },
+        { key: 'subtotal', label: t.col_subtotal, type: 'number' },
+        { key: 'vat', label: t.col_vat, type: 'number' },
+        { key: 'total', label: t.col_inv_total, type: 'number' },
+        { key: 'statusDone', label: t.field_done, type: 'checkbox' },
+        { key: 'statusUnderConstruction', label: t.field_inprogress, type: 'checkbox' },
+        { key: 'commission3pct', label: t.field_commission3, type: 'number' },
+        { key: 'commission1pct', label: t.field_commission1, type: 'number' },
+        { key: 'remainSmartZone', label: t.field_remain_sz, type: 'number' },
+        { key: 'remainCustomer', label: t.field_remain_customer, type: 'number' },
       ]}
     />
   );

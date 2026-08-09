@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { api } from '../api';
+import { useLang } from '../lang';
 import { money } from '../utils';
 import Modal from '../components/Modal';
 
 export default function Projects() {
+  const { t } = useLang();
   const [rows, setRows] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
@@ -36,36 +38,36 @@ export default function Projects() {
   };
 
   const remove = async (id) => {
-    if (!window.confirm('هل تريد حذف هذا المشروع؟ / Delete this project?')) return;
+    if (!window.confirm(t.confirm_delete_project)) return;
     await api.delete(`/projects/${id}`);
     load();
   };
 
   return (
     <div>
-      <div className="page-title">المشاريع · Projects</div>
-      <div className="page-subtitle">تكلفة كل مشروع، التركيب، والتمويل / Cost, installation & funding per project</div>
+      <div className="page-title">{t.proj_title}</div>
+      <div className="page-subtitle">{t.proj_subtitle}</div>
       {error && <div className="error-banner">{error}</div>}
 
       <div className="toolbar">
-        <input className="search-input" placeholder="بحث عن مشروع... / Search projects..." value={query} onChange={(e) => setQuery(e.target.value)} />
-        <button className="btn" onClick={() => setModalOpen(true)}>+ مشروع جديد / New Project</button>
+        <input className="search-input" placeholder={t.search_projects} value={query} onChange={(e) => setQuery(e.target.value)} />
+        <button className="btn" onClick={() => setModalOpen(true)}>{t.new_project}</button>
       </div>
 
       <div className="panel">
         <div className="table-wrap">
           {loading ? (
-            <div className="loading">جاري التحميل... / Loading...</div>
+            <div className="loading">{t.loading}</div>
           ) : (
             <table>
               <thead>
                 <tr>
-                  <th>المشروع · Project</th>
-                  <th>تكلفة المشروع · Cost</th>
-                  <th>التركيب · Installation</th>
-                  <th>المدفوع · Payed</th>
-                  <th>المتبقي · Remain</th>
-                  <th>الحالة · Status</th>
+                  <th>{t.col_project}</th>
+                  <th>{t.col_cost}</th>
+                  <th>{t.col_installation}</th>
+                  <th>{t.col_payed}</th>
+                  <th>{t.col_remain}</th>
+                  <th>{t.col_status}</th>
                   <th></th>
                 </tr>
               </thead>
@@ -78,7 +80,7 @@ export default function Projects() {
                     <td>{money(p.totalPayed)}</td>
                     <td style={{ color: p.remain < 0 ? '#d92d20' : undefined }}>{money(p.remain)}</td>
                     <td><span className="badge green">{p.status}</span></td>
-                    <td><button className="btn danger small" onClick={() => remove(p.id)}>حذف</button></td>
+                    <td><button className="btn danger small" onClick={() => remove(p.id)}>{t.delete}</button></td>
                   </tr>
                 ))}
               </tbody>
@@ -88,20 +90,20 @@ export default function Projects() {
       </div>
 
       {modalOpen && (
-        <Modal title="مشروع جديد / New Project" onClose={() => setModalOpen(false)}>
+        <Modal title={t.new_project_title} onClose={() => setModalOpen(false)}>
           <div className="form-grid">
             <div className="form-field">
-              <label>اسم المشروع · Name</label>
+              <label>{t.field_proj_name}</label>
               <input value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} />
             </div>
             <div className="form-field">
-              <label>العميل · Client</label>
+              <label>{t.field_client}</label>
               <input value={form.client} onChange={(e) => setForm({ ...form, client: e.target.value })} />
             </div>
           </div>
           <div className="modal-actions">
-            <button className="btn secondary" onClick={() => setModalOpen(false)}>إلغاء / Cancel</button>
-            <button className="btn" disabled={saving || !form.name} onClick={create}>{saving ? '...' : 'حفظ / Save'}</button>
+            <button className="btn secondary" onClick={() => setModalOpen(false)}>{t.cancel}</button>
+            <button className="btn" disabled={saving || !form.name} onClick={create}>{saving ? '...' : t.save}</button>
           </div>
         </Modal>
       )}

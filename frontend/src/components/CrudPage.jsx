@@ -1,8 +1,10 @@
 import { useEffect, useMemo, useState } from 'react';
 import { api } from '../api';
+import { useLang } from '../lang';
 import Modal from './Modal';
 
 export default function CrudPage({ title, subtitle, endpoint, columns, formFields, searchKeys }) {
+  const { t } = useLang();
   const [rows, setRows] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
@@ -75,7 +77,7 @@ export default function CrudPage({ title, subtitle, endpoint, columns, formField
   };
 
   const remove = async (row) => {
-    if (!window.confirm('هل تريد حذف هذا السجل؟ / Delete this record?')) return;
+    if (!window.confirm(t.confirm_delete)) return;
     try {
       await api.delete(`${endpoint}/${row.id}`);
       load();
@@ -93,19 +95,19 @@ export default function CrudPage({ title, subtitle, endpoint, columns, formField
       <div className="toolbar">
         <input
           className="search-input"
-          placeholder="بحث... / Search..."
+          placeholder={t.search}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
-        <button className="btn" onClick={openAdd}>+ إضافة / Add</button>
+        <button className="btn" onClick={openAdd}>{t.add}</button>
       </div>
 
       <div className="panel">
         <div className="table-wrap">
           {loading ? (
-            <div className="loading">جاري التحميل... / Loading...</div>
+            <div className="loading">{t.loading}</div>
           ) : filtered.length === 0 ? (
-            <div className="empty-state">لا توجد بيانات / No records</div>
+            <div className="empty-state">{t.no_records}</div>
           ) : (
             <table>
               <thead>
@@ -123,9 +125,9 @@ export default function CrudPage({ title, subtitle, endpoint, columns, formField
                       <td key={c.key}>{c.render ? c.render(row[c.key], row) : row[c.key]}</td>
                     ))}
                     <td>
-                      <button className="link-btn" onClick={() => openEdit(row)}>تعديل</button>
+                      <button className="link-btn" onClick={() => openEdit(row)}>{t.edit}</button>
                       {'  '}
-                      <button className="btn danger small" style={{ marginInlineStart: 8 }} onClick={() => remove(row)}>حذف</button>
+                      <button className="btn danger small" style={{ marginInlineStart: 8 }} onClick={() => remove(row)}>{t.delete}</button>
                     </td>
                   </tr>
                 ))}
@@ -136,7 +138,7 @@ export default function CrudPage({ title, subtitle, endpoint, columns, formField
       </div>
 
       {modalOpen && (
-        <Modal title={editing ? 'تعديل السجل / Edit' : 'إضافة سجل / Add'} onClose={() => setModalOpen(false)}>
+        <Modal title={editing ? t.edit_record : t.add_record} onClose={() => setModalOpen(false)}>
           <div className="form-grid">
             {formFields.map((f) => (
               <div className="form-field" key={f.key}>
@@ -158,8 +160,8 @@ export default function CrudPage({ title, subtitle, endpoint, columns, formField
             ))}
           </div>
           <div className="modal-actions">
-            <button className="btn secondary" onClick={() => setModalOpen(false)}>إلغاء / Cancel</button>
-            <button className="btn" disabled={saving} onClick={save}>{saving ? '...' : 'حفظ / Save'}</button>
+            <button className="btn secondary" onClick={() => setModalOpen(false)}>{t.cancel}</button>
+            <button className="btn" disabled={saving} onClick={save}>{saving ? '...' : t.save}</button>
           </div>
         </Modal>
       )}

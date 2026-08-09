@@ -96,7 +96,7 @@ a { text-decoration: none; color: inherit; }
 
 table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
 thead th {
-  text-align: right;
+  text-align: start;
   padding: 10px 12px;
   color: #667085;
   font-weight: 600;
@@ -182,3 +182,17 @@ tbody tr:hover { background: #f9fafb; }
 .section-tabs button.active { background: #101828; color: #fff; border-color: #101828; }
 
 .link-btn { background: none; border: none; color: #2563eb; cursor: pointer; font-size: 13px; padding: 0; }
+
+.lang-toggle {
+  margin: auto 20px 20px;
+  padding: 9px 16px;
+  border-radius: 8px;
+  border: 1px solid #2dd4bf;
+  background: transparent;
+  color: #2dd4bf;
+  font-size: 13.5px;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.lang-toggle:hover { background: #2dd4bf22; }
