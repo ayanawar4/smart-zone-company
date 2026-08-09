@@ -1,4 +1,7 @@
 import 'reflect-metadata';
+import * as dotenv from 'dotenv';
+dotenv.config();
+
 import { DataSource } from 'typeorm';
 import { join } from 'path';
 import * as fs from 'fs';
@@ -21,14 +24,14 @@ function readJson(name: string) {
 
 async function run() {
   const dataSource = new DataSource({
-    type: 'sqljs',
-    autoSave: true,
-    location: join(__dirname, '..', '..', 'data', 'smartzone.sqlite'),
+    type: 'postgres',
+    url: process.env.DATABASE_URL,
+    ssl: { rejectUnauthorized: false },
     entities: [Project, ProjectCostItem, ProjectInstallItem, ProjectFundEntry, FundTransaction, Expense, Salary, Invoice, Employee],
     synchronize: true,
   });
   await dataSource.initialize();
-  console.log('Connected. Clearing existing data...');
+  console.log('Connected to Neon Postgres. Clearing existing data...');
 
   await dataSource.getRepository(ProjectCostItem).clear();
   await dataSource.getRepository(ProjectInstallItem).clear();

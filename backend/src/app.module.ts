@@ -1,9 +1,6 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { ServeStaticModule } from '@nestjs/serve-static';
-import { existsSync } from 'fs';
-import { join } from 'path';
 
 import { ProjectsModule } from './projects/projects.module';
 import { FundModule } from './fund/fund.module';
@@ -16,18 +13,10 @@ import { DashboardModule } from './dashboard/dashboard.module';
 @Module({
   imports: [
     ConfigModule.forRoot({ isGlobal: true }),
-    ...(existsSync(join(__dirname, '..', '..', 'frontend', 'dist'))
-      ? [
-          ServeStaticModule.forRoot({
-            rootPath: join(__dirname, '..', '..', 'frontend', 'dist'),
-            exclude: ['/api/{*splat}'],
-          }),
-        ]
-      : []),
     TypeOrmModule.forRoot({
-      type: 'sqljs',
-      autoSave: true,
-      location: join(__dirname, '..', 'data', 'smartzone.sqlite'),
+      type: 'postgres',
+      url: process.env.DATABASE_URL,
+      ssl: { rejectUnauthorized: false },
       autoLoadEntities: true,
       synchronize: true,
     }),
